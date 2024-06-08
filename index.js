@@ -19,4 +19,4 @@ comment.value=""
 }
 btnLike1.addEventListener("click",clickLike1)
 btnLike2.addEventListener("click",clickLike2)
-submit.addEventListener("click", submitComment)
+submit.addEventListener("click", submitComment) 

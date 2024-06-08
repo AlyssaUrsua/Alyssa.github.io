@@ -14,9 +14,9 @@ function clickLike2() {
   countLikes2.textContent = totalLikes2.toString()
 }
 function submitComment(){
-commentbox.textContent = comment.value.toString() + "\n"
+commentbox.textContent += comment.value.toString() + "\n"
 comment.value=""
-  }
+}
 btnLike1.addEventListener("click",clickLike1)
-btnLike2.addEventListener("click",clickLike2) 
+btnLike2.addEventListener("click",clickLike2)
 submit.addEventListener("click", submitComment)
